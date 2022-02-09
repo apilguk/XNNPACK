@@ -1084,6 +1084,30 @@ SET(WASMSIMD_UKERNELS
         src/qu8-gemm/gen/2x4c8-minmax-fp32-wasmsimd-ld128.c
         src/qu8-gemm/gen/3x4c8-minmax-fp32-wasmsimd-ld64.c
         src/qu8-gemm/gen/3x4c8-minmax-fp32-wasmsimd-ld128.c
+
+        src/qs8-gemm/gen/4x4-minmax-fp32-wasm-fmagic.c
+        src/qc8-gemm/gen/2x2-minmax-fp32-scalar-imagic.c
+        src/qc8-gemm/gen/2x2-minmax-fp32-scalar-imagic.c
+        src/qc8-igemm/gen/2x2-minmax-fp32-scalar-imagic.c
+        src/qc8-igemm/gen/4x4-minmax-fp32-wasm-fmagic.c
+        src/qc8-gemm/gen/1x2-minmax-fp32-scalar-imagic.c
+        src/qc8-gemm/gen/1x4-minmax-fp32-wasm-fmagic.c
+        src/qc8-igemm/gen/1x2-minmax-fp32-scalar-imagic.c
+        src/qc8-igemm/gen/1x4-minmax-fp32-wasm-fmagic.c
+        src/qc8-dwconv/gen/up1x25-minmax-fp32-scalar-imagic.c
+        src/qc8-dwconv/gen/up2x25-minmax-fp32-wasm-fmagic.c
+        src/qc8-dwconv/gen/up2x9-minmax-fp32-scalar-imagic.c
+        src/qc8-dwconv/gen/up2x9-minmax-fp32-wasm-fmagic.c
+        src/qs8-dwconv/gen/up2x9-minmax-fp32-scalar-imagic.c
+        src/qs8-dwconv/gen/up1x25-minmax-fp32-scalar-imagic.c
+        src/qs8-dwconv/gen/up1x25-minmax-fp32-scalar-imagic.c
+        src/qs8-gemm/gen/1x2-minmax-fp32-scalar-imagic.c
+        src/qs8-igemm/gen/2x2-minmax-fp32-scalar-imagic.c
+        src/qs8-gemm/gen/2x2-minmax-fp32-scalar-imagic.c
+        src/qu8-gemm/gen/2x2-minmax-fp32-scalar-imagic.c
+        src/qu8-igemm/gen/2x2-minmax-fp32-scalar-imagic.c
+
+
         src/qu8-igemm/gen/1x4c8-minmax-fp32-wasmsimd-ld64.c
         src/qu8-igemm/gen/1x4c8-minmax-fp32-wasmsimd-ld128.c
         src/qu8-igemm/gen/2x4c8-minmax-fp32-wasmsimd-ld64.c
